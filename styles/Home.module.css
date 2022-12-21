@@ -3,7 +3,6 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 6rem;
   min-height: 100vh;
 }
 
@@ -17,7 +16,23 @@
   z-index: 2;
   font-family: var(--font-mono);
 }
-
+.title{
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #626262 !important;
+  font-family: cursive;
+  margin: 0;
+  padding: 0;
+  color: var(--primary);
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  position:absolute;
+  top: 410px;
+  z-index: 10;
+}
 .description a {
   display: flex;
   justify-content: center;
@@ -76,6 +91,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   position: relative;
   padding: 4rem 0;
 }
